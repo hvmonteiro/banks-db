@@ -1,6 +1,6 @@
-![](https://ramoona.github.io/banks-db-demo//assets/logo.svg)
+![](https://hvmonteiro.github.io/banks-db-demo//assets/logo.svg)
 
-[![Build Status](https://img.shields.io/travis/ramoona/banks-db/master.svg?style=flat-square)](https://travis-ci.org/ramoona/banks-db)
+[![Build Status](https://img.shields.io/travis/hvmonteiro/banks-db/master.svg?style=flat-square)](https://travis-ci.org/hvmonteiro/banks-db)
 [![Latest Stable Version](https://img.shields.io/npm/v/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
 [![NPM Downloads](https://img.shields.io/npm/dm/banks-db.svg?style=flat-square)](https://www.npmjs.com/package/banks-db)
 
@@ -8,7 +8,7 @@ Returns bank's name and brand color by bankcard prefix (BIN).
 
 It is useful on billing pages to use bank’s brand color when user starts to type card number.
    
-![](https://ramoona.github.io/banks-db-demo/assets/usage.gif)
+![](https://hvmonteiro.github.io/banks-db-demo/assets/usage.gif)
 
 It's a community driven database, so it can potentially contains mistakes. It's not a problem for UX enhancement,
 but you must not use Banks DB in your billing logic.
@@ -33,13 +33,13 @@ The BIN system was established by the American National Standards Institute (ANS
 The Bank Identification Number helps merchants evaluate transactions and detect fraudulent or stolen cards. When initiating a transaction, you need to enter your card number, expiration date, and CVV or CVC. The issuer then receives a request to verify the account, the availability of the funds, and the compliance with national law. The BIN gives merchants all they need to validate the information and process the transaction.
 
 ## Demo
-Try your card prefix in our [demo](https://ramoona.github.io/banks-db-demo/). Note that only first 6 digits of card number are required.
+Try your card prefix in our [demo](https://hvmonteiro.github.io/banks-db-demo/). Note that only first 6 digits of card number are required.
 
 ## Usage
 
 ### PostCSS
 
-With [postcss-banks-db](https://github.com/ramoona/postcss-banks-db) and
+With [postcss-banks-db](https://github.com/hvmonteiro/postcss-banks-db) and
 [postcss-contrast](https://github.com/stephenway/postcss-contrast) you can
 generate CSS for each bank:
 
@@ -182,4 +182,4 @@ In case your bankcard doesn't work, please check if your bank already in [Banks 
 - Otherwise you can add a new bank (see [contributing guide](https://github.com/Ramoona/banks-db/blob/master/CONTRIBUTING.md)).
 
 ## Changelog
-See [CHANGELOG.md](https://github.com/ramoona/banks-db/blob/master/CHANGELOG.md) or [release notes](https://github.com/ramoona/banks-db/releases) (with commits history).
+See [CHANGELOG.md](https://github.com/hvmonteiro/banks-db/blob/master/CHANGELOG.md) or [release notes](https://github.com/hvmonteiro/banks-db/releases) (with commits history).

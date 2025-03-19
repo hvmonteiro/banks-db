@@ -15,4 +15,4 @@ deploy:
   api_key: $NPM_API_KEY
   on:
     tags: true
-    repo: ramoona/banks-db
+    repo: hvmonteiro/banks-db
