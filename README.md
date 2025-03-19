@@ -13,6 +13,25 @@ It is useful on billing pages to use bank’s brand color when user starts to ty
 It's a community driven database, so it can potentially contains mistakes. It's not a problem for UX enhancement,
 but you must not use Banks DB in your billing logic.
 
+## The Sequence of the Digits in Credit Card Numbers
+
+The card digits and the card number order are strategically chosen and placed. They reveal  **crucial information about the card, the cardholder, and the card issuer**. Discover what they mean in the table below:
+
+|Number|What It Is|What It Means|
+|--|--|--|
+|The first digit|Major Industry Identifier (MII)|Signifies the credit card network and industry|
+Digits 1–8|The Issuer Identification Number (IIN) or the Bank Identification Number (BIN)|Indicates the financial institution that issued the card|
+|Digits 7–15|Account Number|Identifies the card and account holder|
+|The last digit|Checksum/Check Digit|Verifies the legitimacy of the other digits using the Luhn algorithm|
+
+Note that not all credit card numbers follow this exact structure. For example, the checksum on a Visa might be digit 13 instead of the last digit.
+
+The Bank Identification Number (BIN), also known as the Issuer Identification Number, is the  **first 4–8-digit sequence at the beginning of the card number.**  As you can see in the table above, the BIN contains the industry identifier and indicates the financial institution that issued the card.
+
+The BIN system was established by the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO). Its primary purpose is to increase the efficiency and security of payments.
+
+The Bank Identification Number helps merchants evaluate transactions and detect fraudulent or stolen cards. When initiating a transaction, you need to enter your card number, expiration date, and CVV or CVC. The issuer then receives a request to verify the account, the availability of the funds, and the compliance with national law. The BIN gives merchants all they need to validate the information and process the transaction.
+
 ## Demo
 Try your card prefix in our [demo](https://ramoona.github.io/banks-db-demo/). Note that only first 6 digits of card number are required.
 
