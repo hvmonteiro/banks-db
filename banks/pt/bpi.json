@@ -1,11 +1,14 @@
 {
   "name": "bpi",
   "country": "pt",
-  "localTitle": "Banco Português de Investimento (BPI)",
-  "engTitle": "Portuguese Investment Bank",
-  "url": "www.bancobpi.pt",
-  "color": "#ff8d00",
+  "localTitle": "Banco Português de Investimento",
+  "engTitle": "Portuguese Investment Bank | CaixaBank",
+  "url": "https://www.bancobpi.pt/",
+  "color": "#ff6600",
   "prefixes": [
-    415159
+    415159,
+    440637,
+    454703,
+    439551
   ]
 }

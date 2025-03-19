@@ -1,0 +1,11 @@
+{
+  "name": "cetelem",
+  "country": "pt",
+  "localTitle": "Banco Cetelem",
+  "engTitle": "BNP Paribas Personal Finance - Cetelem",
+  "url": "https://www.cetelem.pt/",
+  "color": "#337f37",
+  "prefixes": [
+    528067
+  ]
+}

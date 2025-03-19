@@ -1,0 +1,11 @@
+{
+  "name": "cgd",
+  "country": "pt",
+  "localTitle": "Caixa Geral de Depositos",
+  "engTitle": "Caixa Geral de Depositos",
+  "url": "https://www.cgd.pt/",
+  "color": "#0071ce",
+  "prefixes": [
+    406170
+  ]
+}

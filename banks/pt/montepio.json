@@ -1,0 +1,11 @@
+{
+  "name": "montepio",
+  "country": "pt",
+  "localTitle": "Banco Montepio",
+  "engTitle": "Montepio Bank",
+  "url": "https://www.bancomontepio.pt/",
+  "color": "#ff8d00",
+  "prefixes": [
+    587061
+  ]
+}

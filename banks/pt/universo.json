@@ -1,0 +1,11 @@
+{
+  "name": "universo",
+  "country": "pt",
+  "localTitle": "Cartao Universo",
+  "engTitle": "Universo by Sonae | Bankinter",
+  "url": "https://www.universo.pt/",
+  "color": "#000000",
+  "prefixes": [
+    520004
+  ]
+}

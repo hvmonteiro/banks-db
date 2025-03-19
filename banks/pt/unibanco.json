@@ -1,0 +1,11 @@
+{
+  "name": "unibanco",
+  "country": "pt",
+  "localTitle": "Banco Unibanco",
+  "engTitle": "Unibanco Bank",
+  "url": "https://www.unibanco.pt/",
+  "color": "#1adcb9",
+  "prefixes": [
+    491546
+  ]
+}
